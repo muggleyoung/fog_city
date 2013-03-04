@@ -8,7 +8,7 @@ layout: default
   <header>
     <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
     <ul><li>
-    {% if page.date %}<a href="#" class="meta icon-bookmark">{% include post/date.html %}{{ time }}</a>{% endif %}
+    {% if page.date %}<a href="#" class="meta">{% include post/date.html %}{{ time }}</a>{% endif %}
     </li></ul>
   </header>
   {% endif %}
